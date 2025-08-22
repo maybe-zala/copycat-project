@@ -1,0 +1,172 @@
+.logo{
+    width: 1200px;
+    height: auto;
+    margin: 20px auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+  width: 450px;
+  height: 245px;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px 2px; color:#dbdbdb;;
+  border-radius: 30px;
+}
+.accounts{
+    font-family: "Equip Cond W04 Thin";
+    color: black;
+    text-align: center;
+    font-size: 50px;
+
+}
+.online{
+    font-family: "SeroPro";
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+.username{
+    font-family: "Equip Cond W04 Thin";
+    font-family: "SeroPro";
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: left;
+}
+.input{
+    width: 450px;
+    height: 50px;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 1px;
+    /* border-color: rgb(0, 0, 0); */
+}
+.checkbox{
+    transform: scale(2.0);
+    margin: 10px;
+    display: flex;
+    align-items: center; 
+    float: left;
+    accent-color: #008B00;
+}
+.label{
+    font-family: "SeroPro";
+    font-size: 15px;
+    color: black;
+    text-align: left;
+
+}
+.rounded-button {
+    padding: 15px 150px;
+    background-color: #008B00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.button-label{
+    font-family: "seroPro";
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.underline-word {
+    text-decoration: underline;
+    color:#007F8E;
+    font-family: "seroPro";
+    text-align: center;
+    font-size: 16px;
+  }
+.forgot{
+    text-align: center;
+    font-size: 16px;
+    color: black;
+    font-family: "seroPro";
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 16px;
+    font-family: "seroPro";
+    justify-content: center;
+    color: #5c5c5c;
+}
+.call{
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    font-family: "seroPro";
+}
+.underline-word-call {
+    text-decoration: underline;
+    color:#007F8E;
+    font-family: "seroPro";
+    text-align: center;
+    font-size: 13px;
+}
+
+
+.header{
+    text-align: center;
+    font-size: 17px;
+    color: black;
+    font-family: "seroPro";
+    padding: 8px;
+}
+.table-contents {
+    padding: 8px;
+    font-family: "seroPro";
+    width: 30%;
+    text-align: center;
+    border-top: none;
+    border-right: none;
+  }
+  .table-contents-end {
+    padding: 8px;
+    font-family: "seroPro";
+    width: 30%;
+    text-align: center;
+    border-top: none;
+  }
+.table {
+    /* border-collapse: collapse;*/
+    border: 1px solid #ccc; 
+    border-radius: 20px;
+    overflow: hidden;
+    table-layout: fixed;
+    margin: auto;
+    width: 80%;
+
+}
+.legal{
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    font-family: "seroPro";
+}
+.image-container {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.legal-img {
+    max-width: 2%;
+
+}
+
+.left {
+    border: 1px solid #ccc;
+    border-left: none;
+    border-bottom: none;
+    /* border-collapse: collapse; */
+}
+.right {
+    border: 1px solid #ccc;
+    border-right: none;
+    border-bottom: none;
+    /* border-collapse: collapse; */
+}
